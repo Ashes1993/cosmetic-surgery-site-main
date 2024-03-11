@@ -1,0 +1,8 @@
+body {
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}

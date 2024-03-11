@@ -1,0 +1,199 @@
+.anatomy-container {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  max-width: 800px;
+}
+
+.line {
+  width: 90%;
+  margin-top: 3rem;
+  background-color: rgba(76, 101, 245, 0.781);
+  height: 0.2rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: auto;
+}
+
+.body-part {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 4%;
+}
+
+.arrow {
+  background-color: rgba(76, 101, 245, 0.781);
+  width: 100%;
+  height: 0.2px;
+  margin: auto;
+}
+
+.body-part__description {
+  position: relative;
+}
+
+.body-part__name {
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.body-part__name:hover {
+  color: rgba(76, 101, 245, 0.781);
+  transform: scale(1.2);
+}
+
+.body-summary {
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  width: 15rem;
+  height: auto;
+  background-image: linear-gradient(
+    45deg,
+    rgb(160, 219, 255),
+    rgb(87, 183, 248)
+  );
+  color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.body-summary button {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(39, 134, 243);
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  pointer-events: none;
+}
+
+/* Body Parts */
+
+.hair {
+  width: 53%;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eyes {
+  width: 30%;
+  top: 20%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+}
+
+.nose {
+  width: 32%;
+  top: 22%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+.face {
+  width: 30.5%;
+  top: 24%;
+  left: 38.5%;
+  transform: translate(-50%, -50%);
+}
+
+.arm {
+  width: 42%;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.breast {
+  width: 29%;
+  top: 36%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.sides {
+  width: 48%;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ab {
+  width: 30%;
+  top: 47%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+.butt {
+  width: 28%;
+  top: 52%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.thigh {
+  width: 45%;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Mobile View */
+.mobile-anatomy-container {
+  margin: auto;
+}
+
+.moblie-anatomy-card {
+  text-align: center;
+  margin: 2rem auto;
+  background-color: #e9f0f1;
+  width: 60%;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.mobile-anatomy-image {
+  width: 40%;
+}
+
+.anatomy-list-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.read-more-btn {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  font-size: 18px;
+  border: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(160, 219, 255),
+    rgb(42, 165, 248)
+  );
+}

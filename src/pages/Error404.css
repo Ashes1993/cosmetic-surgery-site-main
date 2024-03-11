@@ -1,0 +1,9 @@
+.error-container {
+  width: 50%;
+  height: auto;
+  background-color: blue;
+  border-radius: 2rem;
+  margin: auto;
+  text-align: center;
+  padding: 3rem;
+}

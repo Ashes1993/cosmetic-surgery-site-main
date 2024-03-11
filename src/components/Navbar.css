@@ -1,0 +1,36 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  padding: 2rem;
+  transition: background-color 1s ease;
+}
+
+.link:hover {
+  background-color: rgba(57, 154, 233, 0.959);
+}
+
+.logo {
+  font-size: 3rem;
+  color: rgba(57, 154, 233, 0.959);
+  float: left;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .link {
+    padding: 1rem;
+  }
+}

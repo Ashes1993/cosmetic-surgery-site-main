@@ -1,0 +1,20 @@
+.landing-contacts {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 38%;
+  right: -50px;
+  transition: right 0.3s ease-in;
+}
+
+.landing-contacts:hover {
+  right: 0;
+}
+
+.contact-icon {
+  font-size: 60px;
+  color: white;
+  background-color: rgba(57, 154, 233, 0.959);
+  padding: 1rem;
+  margin: 0.2rem;
+}

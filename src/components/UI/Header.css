@@ -1,0 +1,15 @@
+.header-container {
+  position: relative;
+  width: 100%;
+  background-image: url("../../Images/Banner.jpg");
+  background-size: cover;
+  height: 25rem;
+  margin-bottom: 1rem;
+}
+
+.header-container h1 {
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  font-size: 60px;
+}
