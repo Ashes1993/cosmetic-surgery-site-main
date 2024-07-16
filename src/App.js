@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Error404 from "./pages/Error404";
 import SurgeryDetailPage from "./pages/SurgeryDetailPage";
 import articlesData from "./articles";
+import TermsOfUse from "./pages/TermsOfUse";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           element={<SurgeryDetailPage articlesData={articlesData} />}
         />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/termsofuse" element={<TermsOfUse />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
